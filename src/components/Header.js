@@ -32,7 +32,7 @@ const Header = () => {
         </a>
       </NavMenu>
 
-      <UserImg src="/images/DP.jpg"/>
+      <UserImg src="/images/DP.jpg" />
     </Nav>
   );
 };
@@ -53,8 +53,7 @@ const NavMenu = styled.div`
   display: flex;
   flex: 1;
   margin-left: 20px;
-  align-items: center;
-  justify-content: center;
+
   a {
     display: flex;
     align-items: center;
@@ -69,7 +68,7 @@ const NavMenu = styled.div`
       letter-spacing: 1.42px;
       position: relative;
 
-      &:after{
+      &:after {
         content: "";
         height: 2px;
         background: white;
@@ -83,16 +82,16 @@ const NavMenu = styled.div`
         transform: scaleX(0);
       }
     }
-    &:hover{
+    &:hover {
       span:after {
         transform: scaleX(1);
         opacity: 1;
       }
     }
   }
-`
+`;
 const UserImg = styled.img`
   width: 48px;
   height: 48px;
   border-radius: 50%;
-`
+`;
